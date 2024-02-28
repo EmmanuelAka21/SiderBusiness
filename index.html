@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sider Business</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            color: #084668;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #084668;
+            color: aliceblue;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0px;
+        }
+        .logo {
+            width: 50px; 
+            height: auto;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: #084668;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        .bio{
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .twitter-link {
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 1px;
+            background-color: #084668;
+            border-radius: 5px;
+        }
+        .twitter-link:hover {
+            background-color: #063b4e;
+        }
+        .post {
+            margin-top: 50px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+        }
+        .profile-pic {
+            max-width: 50px;
+            max-height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+            padding: 2px;
+            background-color: #084668;
+        }
+        .name {
+            font-weight: bold;
+        }
+        .post-content {
+            display: flex; 
+            align-items: center;
+            text-align: left;
+        }
+        .post-text {
+            margin-bottom: 20px;
+        }
+        .post-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .download-button {
+            display: inline-block;
+            background-color: #084668;
+            color: aliceblue;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .download-button:hover {
+            background-color: #063b4e;
+        }
+        .class{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <header>
+        <img src="logo (2).png" alt="Sider Business Logo" class="logo">
+        <h1>Sider Business</h1>
+    </header>
+   <!-- <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>-->
+    <div class="container">
+        <div class="bio">
+            <p><strong>I post business startup guides as a hobby on this site to help people start new businesses</strong> while learning to code at FreeCodeCamp. So far, this site is purely HTML and CSS and it's under improvement with recommendations from any users. Chat with me on <a href="https://twitter.com/your_twitter_handle" class="twitter-link">Twitter</a>, or if you want me to create a website like this for you.</p>
+        </div>
+    <div class="class">
+        <div class="post">
+            <div class="post-content">
+                <a href="https://www.facebook.com/SiderBusiness" target="-blank"> <img src="myProfilePic.png" alt="Profile Picture" class="profile-pic"></a>
+                <span class="name">Emmanuel Aka</span>
+            </div>
+            <div class="post-text">
+                <p><ion-icon name="arrow-forward-outline"></ion-icon> Make money by growing potatoes for sell.</p>
+            </div>
+            <img src="potatoes.jfif" alt="Post Image" class="post-image">
+            <div>
+                <a href="potatoes.pdf" class="download-button">Download Startup Guide</a>
+            </div>
+        </div>
+        <div class="post">
+            <div class="post-content">
+                <a href="https://www.facebook.com/SiderBusiness" target="-blank"> <img src="myProfilePic.png" alt="Profile Picture" class="profile-pic"></a>
+                <span class="name">Emmanuel Aka</span>
+            </div>
+            <div class="post-text">
+                <p><ion-icon name="arrow-forward-outline"></ion-icon> Make money by growing vegitables for sell.</p>
+            </div>
+            <img src="vegitables.jpeg" alt="Post Image" class="post-image">
+            <div>
+                <a href="vegetables.pdf" class="download-button">Download Startup Guide</a>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
