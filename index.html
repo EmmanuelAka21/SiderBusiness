@@ -51,7 +51,7 @@
             color: aliceblue;
             text-decoration: none;
             font-weight: bold;
-            padding: 1px;
+            padding: auto;
             background-color: #084668;
             border-radius: 5px;
         }
@@ -63,19 +63,20 @@
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            padding: 20px;
             max-width: 400px;
+            padding: 1px;
         }
         .profile-pic {
             max-width: 50px;
             max-height: 50px;
             border-radius: 50%;
-            margin-right: 10px;
+            margin: 5px 0 0 5px;
             padding: 2px;
             background-color: #084668;
         }
         .name {
             font-weight: bold;
+            margin-left: 5px;
         }
         .post-content {
             display: flex; 
@@ -85,21 +86,23 @@
         .post-text {
             margin-bottom: 20px;
             text-align: left;
+            margin-left: 5px;
         }
         .post-image {
             max-width: 100%;
             height: auto;
-            border-radius: 10px;
-            margin-bottom: 20px;
+            margin-bottom: 4px;
         }
         .download-button {
             display: inline-block;
             background-color: #084668;
             color: aliceblue;
             border: none;
-            padding: 10px 20px;
+            padding: 3px 10px;
             border-radius: 5px;
             text-decoration: none;
+            margin-bottom: 8px;
+            font-weight: bolder;
         }
         .download-button:hover {
             background-color: #063b4e;
@@ -110,7 +113,7 @@
             flex-wrap: wrap;
             justify-content: center;
             text-align: center;
-            gap: 5px;
+            gap: 20px;
         }
     </style>
 </head>
@@ -128,7 +131,7 @@
     </nav>-->
     <div class="container">
         <div class="bio">
-            <p><strong>I post business startup guides as a hobby on this site to help people start new businesses</strong> whilest am building my software development skills at FreeCodeCamp. So far, this site is purely HTML and CSS and it's under improvement with recommendations from users. Chat with me on <a href="https://twitter.com/Emmanuel_Aka_21" class="twitter-link">Twitter</a>, or if you want me to create a website like this for you.</p>
+            <p><strong>I post business startup guides as a hobby on this site to help people start new businesses</strong> while learning to code at FreeCodeCamp. So far, this site is purely HTML and CSS and it's under improvement with recommendations from any users. Chat with me on <a href="https://twitter.com/your_twitter_handle" class="twitter-link">Twitter</a>, or if you want me to create a website like this for you.</p>
         </div>
     <div class="class">
         <div class="post">
@@ -155,6 +158,18 @@
             <img src="vegitables.jpeg" alt="Post Image" class="post-image">
             <div>
                 <a href="vegetables.pdf" class="download-button">Download Startup Guide</a>
+            </div>
+        <div class="post">
+            <div class="post-content">
+                <a href="https://www.facebook.com/SiderBusiness" target="-blank"> <img src="myProfilePic.png" alt="Profile Picture" class="profile-pic"></a>
+                <span class="name">Emmanuel Aka</span>
+            </div>
+            <div class="post-text">
+                <p><ion-icon name="arrow-forward-outline"></ion-icon> Make money by growing vegitables for sell.</p>
+            </div>
+            <img src="instagram-brand.jpeg" alt="Post Image" class="post-image">
+            <div>
+                <a href="instagram-brand.pdf" class="download-button">Download Startup Guide</a>
             </div>
         </div>
     </div>
